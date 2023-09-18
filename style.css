@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 600px;
+    background: white;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.button{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#con{
+    width: 580px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.co{
+    background: red;
+    color: white;
+    cursor: pointer;
+}
+.chia{
+    background: blue;
+    color: white;
+    cursor: pointer;
+}
+.bang{
+    background: greenyellow;
+    color: white;
+    cursor: pointer;
+}
